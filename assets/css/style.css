@@ -74,14 +74,14 @@ margin-left: 400px;
 
 .float-center {
     height: 800px;
-    width: 85%;
-    margin-left: 165px;
+    width: 80%;
+    margin-left: 5px;
 }
 /* img 1 and 2 float left */
 .float-left {
     height: 100px;
-    width: 35%;
-    margin-left: 165px;
+    width: 20%;
+    margin-left: 5px;
     padding-top: 5px;
     display: inline;
 } 
@@ -89,11 +89,17 @@ margin-left: 400px;
 /* run buddy and img 4 float right */
 .float-right {
     height: 100px;
-    width: 35%;
-    margin-left: 165px;
+    width: 20%;
+    margin-left: 5px;
     padding-top: 5px;
     display: inline;
 } 
+.image-padding{
+padding: 5px 0 5px 0;
+margin: 5px;
+background-color: deepskyblue;
+}
+
 .Contact-list {
 margin: -20px 35px 0 0;
 float: right;
