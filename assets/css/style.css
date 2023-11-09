@@ -20,6 +20,7 @@ padding: 20px;
 font-family:Arial, Helvetica, sans-serif;
 font-size: 17px;
 background-color:lightslategray;
+width: 100%;
 }
 
 .list {
@@ -83,12 +84,11 @@ padding: 100px;
   }
 
 
-h4 {
+h4  /* Work */ {
 text-align: left;
 font-size: 38px;
-margin-left: 100px;
-padding: 40px;
-
+margin-right: -80px;
+padding: 30px;
 }
 
 .img-container {
@@ -96,46 +96,44 @@ padding: 40px;
     flex-direction: column;
     align-items: center;
   }
+
+  .image-line {
+    display: flex;
+    align-items: center;
+  }
+
+  .vertical-line {
+    border-left: 5px solid black;
+    width: 10px;
+    height: 1000px;
+    margin-left: 300px;
+  }
+
   .big-image {
     width: 1200px;
     margin-left: 160px;
   }
   
-  .small-images {
+  .image-column {
     display: flex;
     flex-direction: column;
-    margin-left: 160px;
   }
   
-  .small-images img {
-    width: 400px;
-    height: 150px;
-    margin: 10px;
+  .top-images,
+  .bottom-images {
+    display: flex;
+    justify-content: space-between;
   }
-/*
-.float-center {
-    height: 600px;
-    width: 80%;
-    margin-left: 300px;
-}
-/* img 1 and 2 float left 
-.float-left {
-    height: 100px;
-    width: 20%;
-    margin-left: 5px;
-    padding-top: 5px;
-    display: inline;
-} 
-
-/* run buddy and img 4 float right 
-.float-right {
-    height: 100px;
-    width: 20%;
-    margin-left: 5px;
-    padding-top: 5px;
-    display: inline;
-}  */
-
+  
+  .top-images img,
+  .bottom-images img {
+    width: 600px;
+    height: 150px;
+    padding: 5px;
+    margin-left: 80px;
+    margin-right: -80px;
+  }
+  
 
 h5 {
  text-align: left;
@@ -145,8 +143,19 @@ padding: 40px;
 }
 
 .Contact-list {
-margin: -20px 35px 0 0;
 float: right;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 20px;
 }
+
+.contact-line {
+    display: flex;
+    align-items: center;
+}
+
+.vert-line {
+    border-left: 5px solid black;
+    width: 10px;
+    height: 300px;
+    margin-left: 370px;
+  }
