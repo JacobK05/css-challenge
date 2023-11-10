@@ -5,21 +5,27 @@
 }
 
 body {
-    background-color: cornsilk;
+    background-color: whitesmoke;
    }
 
 .Name {
-color: cornflowerblue;
-background-color: antiquewhite;
+color: #454545;
+background-color: lightblue;
 height: 40px;
-width: 300px;
+width: 350px;
+text-align: center;
+}
+
+.Name:hover {
+  color: gray;
+  opacity: 0.8;
 }
 
 header {
 padding: 20px;
 font-family:Arial, Helvetica, sans-serif;
 font-size: 17px;
-background-color:lightslategray;
+background-color: #454545;
 width: 100%;
 }
 
@@ -28,10 +34,17 @@ margin: -20px 35px 0 0;
 float: right;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 20px;
+color: lightblue;
 }
+
 a {
   padding: 10px 20px;
   text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.8;
+
 }
 
 ul {
@@ -55,8 +68,12 @@ ul {
     position: absolute;
     bottom: 8px;
     right: 16px;
-    color:lightslategray;
-    background-color: antiquewhite;
+    color: black;
+    background-color: lightblue;
+}
+
+.bottom-right:hover {
+  opacity: 0.8
 }
 
 h3 {
@@ -72,7 +89,7 @@ padding: 100px;
   }
   
   .line {
-    width: 10px;
+    width: 5px;
     height: 250px;
     background-color: black;
     margin-left: 100px;
@@ -103,15 +120,16 @@ padding: 30px;
   }
 
   .vertical-line {
-    border-left: 5px solid black;
+    border-left: 2px solid black;
     width: 10px;
     height: 1000px;
-    margin-left: 300px;
+    margin-left: 250px;
   }
 
   .big-image {
     width: 1200px;
     margin-left: 160px;
+    border: 5px solid lightblue;
   }
   
   .image-column {
@@ -145,7 +163,8 @@ padding: 40px;
 .Contact-list {
 float: right;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 20px;
+font-size: 25px;
+padding: 40px;
 }
 
 .contact-line {
@@ -154,8 +173,8 @@ font-size: 20px;
 }
 
 .vert-line {
-    border-left: 5px solid black;
+    border-left: 2px solid black;
     width: 10px;
     height: 300px;
-    margin-left: 370px;
+    margin-left: 320px;
   }
