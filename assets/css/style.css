@@ -188,4 +188,15 @@ padding: 40px;
     margin-left: 320px;
   }
 
-  
+  @media (max-width: 769px) {
+   .big-image {
+    flex-direction: column;
+   }
+   .about-Me {
+    display: contents;
+    flex-direction: column;
+   }
+   .header {
+    width: 100%;
+   }
+  }
