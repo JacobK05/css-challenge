@@ -14,3 +14,6 @@ Visit the live url to explore my Portfolio.
 
 
 ### Screen shots 
+![Alt text](<Screenshot 2023-11-09 at 10.31.55 PM.png>)
+![Alt text](<Screenshot 2023-11-09 at 10.32.06 PM.png>)
+![Alt text](<Screenshot 2023-11-09 at 10.32.08 PM.png>)
